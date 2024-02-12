@@ -11,6 +11,7 @@ from werkzeug.serving import make_server
 from mii.legacy.constants import RESTFUL_GATEWAY_SHUTDOWN_TIMEOUT, RESTFUL_API_PATH
 from google.protobuf.json_format import MessageToJson
 
+from pydebug import gd, infoTensor
 
 def shutdown(thread):
     time.sleep(RESTFUL_GATEWAY_SHUTDOWN_TIMEOUT)

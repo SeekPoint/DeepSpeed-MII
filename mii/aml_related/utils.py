@@ -7,7 +7,7 @@ import subprocess
 import yaml
 import mii
 
-
+from pydebug import gd, infoTensor
 def get_acr_name():
     try:
         acr_name = subprocess.check_output(

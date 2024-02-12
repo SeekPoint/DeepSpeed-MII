@@ -13,6 +13,8 @@ import sys
 import threading
 import time
 
+from pydebug import gd, infoTensor
+
 from mii.legacy.constants import (
     GRPC_MAX_MSG_SIZE,
     CREATE_SESSION_METHOD,

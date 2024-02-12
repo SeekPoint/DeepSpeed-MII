@@ -3,7 +3,7 @@
 
 # DeepSpeed Team
 import mii
-
+from pydebug import gd, infoTensor
 name = "bert-base-uncased"
 print(f"Deploying {name}...")
 

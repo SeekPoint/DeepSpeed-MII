@@ -5,7 +5,7 @@
 import os
 import mii
 from utils import benchmark
-
+from pydebug import gd, infoTensor
 # Get HF auth key from environment or replace with key
 hf_auth_key = os.environ["HF_AUTH_TOKEN"]
 

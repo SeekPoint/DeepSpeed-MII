@@ -8,6 +8,7 @@ import torch
 from .utils import attempt_load
 from mii.config import ModelConfig
 
+from pydebug import gd, infoTensor
 
 def diffusers_provider(model_config: ModelConfig):
     from diffusers import DiffusionPipeline

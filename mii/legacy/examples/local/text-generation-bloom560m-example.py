@@ -3,7 +3,7 @@
 
 # DeepSpeed Team
 import mii
-
+from pydebug import gd, infoTensor
 mii_configs = {"tensor_parallel": 1, "dtype": "fp16"}
 mii.deploy(task='text-generation',
            model="bigscience/bloom-560m",

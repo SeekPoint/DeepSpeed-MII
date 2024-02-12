@@ -10,6 +10,7 @@ import deepspeed
 from deepspeed.runtime.config import DeepSpeedConfig
 from deepspeed.runtime.zero.config import ZeroStageEnum
 
+from pydebug import gd, infoTensor
 
 def load_models(model_config):
     local_rank = int(os.getenv("LOCAL_RANK", "0"))

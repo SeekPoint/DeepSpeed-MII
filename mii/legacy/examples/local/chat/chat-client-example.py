@@ -3,7 +3,7 @@
 
 # DeepSpeed Team
 import mii
-
+from pydebug import gd, infoTensor
 # Run `chat-server-example.py` before running this script
 generator = mii.mii_query_handle("chat_example_deployment")
 

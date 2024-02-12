@@ -3,6 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 # DeepSpeed Team
+from pydebug import gd, infoTensor
 from __future__ import annotations
 '''Copyright The Microsoft DeepSpeed Team'''
 """

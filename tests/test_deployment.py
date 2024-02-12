@@ -7,7 +7,7 @@ import re
 import subprocess
 import time
 import mii
-
+from pydebug import gd, infoTensor
 
 def test_single_gpu(deployment, query):
     output = deployment(query)

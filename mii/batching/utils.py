@@ -7,7 +7,7 @@ from functools import wraps
 from deepspeed.accelerator import get_accelerator
 
 from mii.logging import logger
-
+from pydebug import gd, infoTensor
 
 def sync_debug(func):
     @wraps(func)

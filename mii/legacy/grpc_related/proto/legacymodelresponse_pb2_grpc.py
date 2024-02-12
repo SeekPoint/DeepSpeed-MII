@@ -9,6 +9,7 @@ import grpc
 from google.protobuf import empty_pb2 as google_dot_protobuf_dot_empty__pb2
 import mii.legacy.grpc_related.proto.legacymodelresponse_pb2 as legacymodelresponse__pb2
 
+from pydebug import gd, infoTensor
 
 class ModelResponseStub(object):
     """Missing associated documentation comment in .proto file."""

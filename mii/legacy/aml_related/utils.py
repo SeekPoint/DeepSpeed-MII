@@ -6,7 +6,7 @@ import os
 import subprocess
 import yaml
 import mii.legacy as mii
-
+from pydebug import gd, infoTensor
 
 def get_acr_name():
     try:

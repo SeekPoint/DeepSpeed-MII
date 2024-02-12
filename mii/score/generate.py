@@ -7,7 +7,7 @@ import mii
 import pprint
 from mii.logging import logger
 from mii.constants import DeploymentType
-
+from pydebug import gd, infoTensor
 
 def create_score_file(mii_config):
     if len(mii.__path__) > 1:

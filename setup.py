@@ -6,7 +6,7 @@ import os
 import sys
 import subprocess
 from setuptools import setup, find_packages
-
+from pydebug import gd, infoTensor
 
 def fetch_requirements(path):
     with open(path, 'r') as fd:

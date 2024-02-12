@@ -4,7 +4,7 @@
 # DeepSpeed Team
 import mii
 from transformers import AutoConfig
-
+from pydebug import gd, infoTensor
 mii_config = {"dtype": "fp16"}
 
 name = "gpt2-xl"

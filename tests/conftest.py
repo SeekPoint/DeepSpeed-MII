@@ -9,7 +9,7 @@ import torch
 import os
 import mii
 from types import SimpleNamespace
-
+from pydebug import gd, infoTensor
 
 @pytest.fixture(scope="function", params=[None])
 def tensor_parallel(request):

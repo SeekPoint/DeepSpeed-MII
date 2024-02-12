@@ -13,7 +13,7 @@ from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer, AutoConf
 from huggingface_hub import snapshot_download
 
 from mii.legacy.utils import mii_cache_path, is_aml
-
+from pydebug import gd, infoTensor
 
 class MetaTensorPipeline(object):
     """

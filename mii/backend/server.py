@@ -17,7 +17,7 @@ from deepspeed.runtime.config_utils import DeepSpeedConfigModel
 from mii.config import ModelConfig, MIIConfig, ReplicaConfig
 from mii.logging import logger
 
-
+from pydebug import gd, infoTensor
 def config_to_b64_str(config: DeepSpeedConfigModel) -> str:
     # convert json str -> bytes
     json_bytes = config.json().encode()

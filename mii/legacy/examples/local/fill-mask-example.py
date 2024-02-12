@@ -4,7 +4,7 @@
 # DeepSpeed Team
 import mii
 import argparse
-
+from pydebug import gd, infoTensor
 parser = argparse.ArgumentParser()
 parser.add_argument("-q", "--query", action="store_true", help="query")
 args = parser.parse_args()

@@ -16,6 +16,7 @@ from mii.modeling.tokenizers import MIITokenizerWrapper
 from mii.pydantic_v1 import Field, root_validator
 from mii.utils import generate_deployment_name, get_default_task, import_score_file
 
+from pydebug import gd, infoTensor
 
 class ReplicaConfig(DeepSpeedConfigModel):
     hostname: str = ""

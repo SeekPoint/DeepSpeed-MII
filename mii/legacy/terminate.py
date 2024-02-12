@@ -6,7 +6,7 @@ import grpc
 
 import mii.legacy as mii
 from mii.legacy.logging import logger
-
+from pydebug import gd, infoTensor
 
 def terminate(deployment_name):
     logger.info(f"Terminating server for {deployment_name}")

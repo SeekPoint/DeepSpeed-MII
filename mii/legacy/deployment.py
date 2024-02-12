@@ -9,7 +9,7 @@ from .logging import logger
 from .models.score import create_score_file
 from .models import load_models
 from .config import MIIConfig, DeploymentType
-
+from pydebug import gd, infoTensor
 
 def support_legacy_api(
     task,

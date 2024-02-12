@@ -11,6 +11,7 @@ from mii.legacy.grpc_related.proto import legacymodelresponse_pb2 as modelrespon
 from mii.legacy.utils import kwarg_dict_to_proto, unpack_proto_query_kwargs
 from mii.legacy.models.utils import ImageResponse
 
+from pydebug import gd, infoTensor
 
 def single_string_request_to_proto(self, request_dict, **query_kwargs):
     return modelresponse_pb2.SingleStringRequest(

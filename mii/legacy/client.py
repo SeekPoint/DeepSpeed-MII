@@ -13,6 +13,7 @@ from .method_table import GRPC_METHOD_TABLE
 from .config import MIIConfig
 from .utils import import_score_file
 
+from pydebug import gd, infoTensor
 
 def _get_mii_config(deployment_name):
     mii_config = import_score_file(deployment_name, DeploymentType.LOCAL).mii_config

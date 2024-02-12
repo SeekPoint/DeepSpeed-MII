@@ -9,6 +9,7 @@ from mii.constants import TaskType
 from mii.grpc_related.proto import modelresponse_pb2
 from mii.utils import kwarg_dict_to_proto, unpack_proto_query_kwargs
 
+from pydebug import gd, infoTensor
 
 def single_string_request_to_proto(self, request_dict, **query_kwargs):
     return modelresponse_pb2.SingleStringRequest(

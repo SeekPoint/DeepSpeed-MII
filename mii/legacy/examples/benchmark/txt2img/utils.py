@@ -12,6 +12,7 @@ import diffusers
 import transformers
 
 from packaging import version
+from pydebug import gd, infoTensor
 
 assert version.parse(diffusers.__version__) >= version.parse('0.7.1'), "diffusers must be 0.7.1+"
 assert version.parse(mii.__version__) >= version.parse("0.0.3"), "mii must be 0.0.3+"

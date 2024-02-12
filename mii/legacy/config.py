@@ -13,7 +13,7 @@ from .pydantic_v1 import validator, root_validator, Field
 from deepspeed.runtime.config_utils import DeepSpeedConfigModel
 from deepspeed.inference.config import DtypeEnum
 from deepspeed.launcher.runner import DLTS_HOSTFILE, fetch_hostfile
-
+from pydebug import gd, infoTensor
 
 class ReplicaConfig(DeepSpeedConfigModel):
     hostname: str = ""

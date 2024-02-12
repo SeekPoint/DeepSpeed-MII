@@ -8,7 +8,7 @@ import argparse
 
 from huggingface_hub import HfApi
 from transformers import AutoConfig, AutoTokenizer, AutoModel
-
+from pydebug import gd, infoTensor
 
 def dir_path(path_str):
     if os.path.isdir(path_str):
